@@ -1,0 +1,44 @@
+﻿.options {
+    display: flex;
+  flex-wrap: nowrap;
+  background-color: #fdc30005;
+  margin-top:30px;
+  justify-content:space-evenly;
+  flex-direction:row;
+ 
+ 
+}
+    .options_item {
+  background-color: #f1f1f1;
+  width: 600px;
+  height:500px;
+  margin:10px;
+  display:flex;
+  justify-content:space-between;
+  flex-direction:column;
+  text-align: center;
+  line-height: 55px;
+  font-size: 30px;
+  color:#ff6a00;
+  background:#f8f0e34d;
+  align-items:center;
+    }
+
+.img_option {
+
+    height:300px;
+    width:300px;
+}
+.btn_option {
+    margin:10px;
+    width:200px;
+    height:70px;
+    text-align:center;
+    font-size:25px;
+    color:#f8f0e3;
+    background-color:#ff6a00;
+}
+.btn_option:hover
+{background-color:#ef9a0e;
+  
+}
